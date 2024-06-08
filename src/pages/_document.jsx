@@ -1,8 +1,7 @@
 import { Html, Head, Main, NextScript } from 'next/document';
 
-//TODO: Check lang and dir
-const lang = 'ar';
-const dir = 'rtl';
+const lang = 'en';
+const dir = 'ltr';
 
 export default function Document() {
   return (
