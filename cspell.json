@@ -13,7 +13,7 @@
   "ignoreRegExpList": ["/[\\u0621-\\u064A]+/"],
 
   //This project ignored words
-  "words": [],
+  "words": ["slickpic"],
 
   //This project ignored paths
   "ignorePaths": ["src/adapters/vocab.json"]

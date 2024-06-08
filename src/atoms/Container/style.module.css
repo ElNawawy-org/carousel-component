@@ -1,7 +1,4 @@
 .ContainerS {
-  max-width: var(--Container-max-width);
-
-  padding-inline: var(--Container-padding);
-
+  width: 98%;
   margin: auto;
 }

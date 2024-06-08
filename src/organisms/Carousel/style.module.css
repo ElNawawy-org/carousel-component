@@ -1,0 +1,30 @@
+.CarouselS {
+  background-color: gold;
+
+  display: grid;
+  grid-template-columns: 20px auto 20px;
+  gap: var(--gap);
+
+  height: 70dvh;
+}
+
+.images {
+  height: 100%;
+}
+
+.image {
+  border: 1px solid #fff;
+}
+
+/* ================================================== */
+/* ================================================== */
+/* ================================================== */
+/* ================================================== */
+/* Hide scrollbar for IE, Edge add Firefox */
+/*-ms-overflow-style: none;*/
+/*scrollbar-width: none;*/ /* Firefox */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+/*.CarouselS::-webkit-scrollbar {
+  display: none;
+}*/
