@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import { useState } from 'react';
 
+import { LeftArrowIcon } from 'src/assets/icons/LeftArrowIcon';
+import { RightArrowIcon } from 'src/assets/icons/RightArrowIcon';
+
 import { CarouselS, image, cardsS, card, text } from './style.module.css';
 
 const images = [
@@ -77,7 +80,7 @@ export const Carousel = () => {
         disabled={Index <= 0}
         onClick={handlePrev}
       >
-        &lt;
+        <LeftArrowIcon />
       </button>
 
       <div className={cardsS}>{cardsList}</div>
@@ -86,7 +89,7 @@ export const Carousel = () => {
         disabled={Index >= images.length - 1}
         onClick={handleNext}
       >
-        &gt;
+        <RightArrowIcon />
       </button>
     </div>
   );
