@@ -188,7 +188,7 @@
       }
     },
     {
-      "files": ["_app.*"],
+      "files": ["_app.*", "src/organisms/Carousel2/index.jsx"],
       "rules": {
         //Forbid using this: import 'fileName'
         "import/no-unassigned-import": 0

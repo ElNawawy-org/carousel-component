@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Carousel } from 'react-responsive-carousel';
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 
 import { image, cardS, text } from './style.module.css';
 
@@ -61,6 +61,7 @@ export const Carousel2 = () => {
       useKeyboardArrows={true}
       showThumbs={false}
       interval='3000'
+      swipeable={true}
     >
       {cardsList}
     </Carousel>

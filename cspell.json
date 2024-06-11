@@ -16,5 +16,8 @@
   "words": ["slickpic"],
 
   //This project ignored paths
-  "ignorePaths": ["src/adapters/vocab.json", "src/organisms/Carousel/index.jsx"]
+  "ignorePaths": [
+    "src/adapters/vocab.json",
+    "src/organisms/Carousel2/index.jsx"
+  ]
 }
