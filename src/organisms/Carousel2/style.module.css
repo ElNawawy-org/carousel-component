@@ -1,2 +1,22 @@
-.Carousel2S {
+.cardS {
+  display: grid;
+  gap: var(--gap);
+
+  border: 1px solid #888;
+
+  min-width: 60vw;
+
+  margin: 0 20px;
+}
+
+.image {
+  height: 50dvh;
+}
+
+.text {
+  margin: 15px 10px;
+
+  max-height: 70px;
+
+  overflow: hidden;
 }
