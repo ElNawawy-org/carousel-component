@@ -60,7 +60,7 @@ export const Carousel2 = () => {
       transitionTime={500}
       useKeyboardArrows={true}
       showThumbs={false}
-      interval='1000'
+      interval='3000'
     >
       {cardsList}
     </Carousel>
