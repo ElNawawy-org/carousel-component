@@ -18,6 +18,7 @@
   //This project ignored paths
   "ignorePaths": [
     "src/adapters/vocab.json",
+    "src/organisms/Carousel/index.jsx",
     "src/organisms/Carousel2/index.jsx"
   ]
 }
